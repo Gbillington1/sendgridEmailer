@@ -1,0 +1,28 @@
+{
+  "name": "sendgridemailer",
+  "version": "1.0.0",
+  "description": "A node app to send mass emails with SendGrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gbillington1/sendgridEmailer.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "email",
+    "bot"
+  ],
+  "author": "Graham Billington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gbillington1/sendgridEmailer/issues"
+  },
+  "homepage": "https://github.com/Gbillington1/sendgridEmailer#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "dotenv": "^8.2.0"
+  }
+}
